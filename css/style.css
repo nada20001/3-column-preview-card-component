@@ -1,0 +1,85 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  /* paragraphs */
+  --Neutral-Transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  background-color: var(--Very-light-gray);
+}
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+section {
+  height: 100vh;
+  padding: 10rem 15rem 0;
+}
+
+.card-box {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box .text {
+  margin-bottom: 3rem;
+}
+.box p {
+  color: #e3e3e6;
+  /* padding-bottom: 5rem; */
+  font-size: 15px;
+}
+.btn {
+  text-align: center;
+}
+.box button {
+  margin-top: 30px;
+  text-align: center;
+  width: 9rem;
+  padding: 9px 3px;
+  border-radius: 25px;
+  background-color: var(--Very-light-gray);
+  border: 2px solid white;
+  cursor: pointer;
+  font-weight: 500;
+}
+button:hover {
+  /* background-color: white; */
+  background-color: var(--Very-light-gray);
+}
+.box button:hover {
+  background-color: transparent;
+  color: white;
+}
+.one {
+  background-color: var(--Bright-orange);
+}
+.two {
+  background-color: var(--Dark-cyan);
+}
+.three {
+  background-color: var(--Very-dark-cyan);
+}
+.one button {
+  color: var(--Bright-orange);
+}
+.two button {
+  color: var(--Dark-cyan);
+}
+.three button {
+  color: var(--Very-dark-cyan);
+}
+button:hover {
+  color: white;
+}
+.box {
+  color: var(--Very-light-gray);
+  padding: 4rem 2.5rem;
+}
+.box h1 {
+  padding: 15px 0;
+}
